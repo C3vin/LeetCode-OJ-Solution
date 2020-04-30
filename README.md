@@ -1,29 +1,36 @@
 # LeetCode OJ Solution
 
-[![CC-BY-NC-SA-4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![leetcode.com](https://img.shields.io/badge/HomePage-leetcode.com-brightgreen.svg)](https://leetcode.com/problemset/algorithms/)
-[![leetcode-cn.com](https://img.shields.io/badge/CN_HomePage-leetcode--cn.com-brightgreen.svg)](https://leetcode-cn.com/problemset/algorithms/)
+[![CC-BY-NC-SA-4.0](CC-BY-NC-SA.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![leetcode.com](materials/HomePage-leetcode.com-brightgreen.svg)](https://leetcode.com/problemset/algorithms/)
+[![leetcode-cn.com](materials/CN_HomePage-leetcode--cn.com-brightgreen.svg)](https://leetcode-cn.com/problemset/algorithms/)
 
 ## Progress // 当前进度
 
-|                                                                    |   LeetCode |  CCI`*` | COF`**` |
-| :----------------------------------------------------------------- | ---------: | ------: | ------: |
-| ![Solved](https://img.shields.io/badge/-Solved%2FTotal-007ec6.svg) | 149 / 1420 | 5 / 109 |  5 / 75 |
-| ![Easy](https://img.shields.io/badge/-Easy-5cb85c.svg)             |         37 |       2 |       2 |
-| ![Medium](https://img.shields.io/badge/-Medium-f0ad4e.svg)         |         87 |       2 |       2 |
-| ![Hard](https://img.shields.io/badge/-Hard-e05d44.svg)             |         25 |       1 |       1 |
+|                                         | LeetCode`#` | CCI`*` | COF`**` |
+| :-------------------------------------- | ----------: | -----: | ------: |
+| ![Solved](materials/-Total-007ec6.svg)  |    1439 (8) |    109 |      75 |
+| ![Easy](materials/-Easy-5cb85c.svg)     |      45 (2) |      2 |       2 |
+| ![Medium](materials/-Medium-f0ad4e.svg) |      89 (3) |      2 |       2 |
+| ![Hard](materials/-Hard-e05d44.svg)     |      26 (0) |      1 |       1 |
+| ![Solved](materials/-Solved-8a2be2.svg) |     160 (5) |      5 |       5 |
 
+* `#` Some problems are locked by leetcode. The number in brackets is solved.  // 部分题目被锁，括号内是其数目
 * `*` CCI is the abbreviation of "Cracking the Coding Interview", here is the [portal](https://leetcode-cn.com/problemset/lcci/) // CCI 是《程序员面试金典》的题库，传送链接已附上
 * `**` COF is the abbreviation of "Coding Interviews: Questions, Analysis and Solutions", here is the [portal](https://leetcode-cn.com/problemset/lcof/) // COF 是《剑指 Offer（第 2 版）》的题库，传送链接已附上
 
 ## Solutions // 刷题成果
 
 * LeetCode:
-![cpp](https://img.shields.io/badge/cpp-149-f34b7d.svg)
+![cpp](https://img.shields.io/badge/cpp-160-f34b7d.svg)
 ![python](https://img.shields.io/badge/python-45-3572A5.svg)
 ![ruby](https://img.shields.io/badge/ruby-40-701516.svg)
 ![java](https://img.shields.io/badge/java-4-b07219.svg)
 ![haskell](https://img.shields.io/badge/haskell-1-5e5086.svg)
+
+* LeetCode Locked Problems:
+![cpp](https://img.shields.io/badge/cpp-5-f34b7d.svg)
+![python](https://img.shields.io/badge/python-2-3572A5.svg)
+![ruby](https://img.shields.io/badge/ruby-2-701516.svg)
 
 * CCI:
 ![cpp](https://img.shields.io/badge/cpp-5-f34b7d.svg)
@@ -31,10 +38,7 @@
 * COF:
 ![cpp](https://img.shields.io/badge/cpp-5-f34b7d.svg)
 
-* Unreleased:
-![cpp](https://img.shields.io/badge/cpp-4-f34b7d.svg)
-![python](https://img.shields.io/badge/python-2-3572A5.svg)
-![ruby](https://img.shields.io/badge/ruby-2-701516.svg)
+* Unreleased: None
 
 * The C++ solution is currently the way I work through the Leetcode // 我现在主要用 C++ 刷题
 * *Haskell solution is just for fun :)* // 偶尔也会用 Haskell 水一些题
@@ -44,10 +48,10 @@
 
 | Archive         |   AC | Archive         |   AC | Archive         |   AC | Archive         |   AC |
 | --------------- | ---: | --------------- | ---: | --------------- | ---: | --------------- | ---: |
-| **0**01 ~ 100   |   48 | **1**01 ~ 200   |   29 | **2**01 ~ 300   |   22 | **3**01 ~ 400   |   10 |
-| **4**01 ~ 500   |    9 | **5**01 ~ 600   |    5 | **6**01 ~ 700   |    3 | **7**01 ~ 800   |    4 |
-| **8**01 ~ 900   |    6 | **9**01 ~ 1000  |    2 | **10**01 ~ 1100 |    6 | **11**01 ~ 1200 |    4 |
-| **12**01 ~ 1300 |    1 | **13**01 ~ 1400 |    0 |                 |      |                 |      |
+| **0**01 ~ 100   |   50 | **1**01 ~ 200   |   29 | **2**01 ~ 300   |   23 | **3**01 ~ 400   |   12 |
+| **4**01 ~ 500   |   10 | **5**01 ~ 600   |    5 | **6**01 ~ 700   |    3 | **7**01 ~ 800   |    5 |
+| **8**01 ~ 900   |    6 | **9**01 ~ 1000  |    3 | **10**01 ~ 1100 |    7 | **11**01 ~ 1200 |    4 |
+| **12**01 ~ 1300 |    1 | **13**01 ~ 1400 |    0 | **14**01 ~ 1500 |    5 |                 |      |
 
 * *several questions were locked*
 
@@ -69,6 +73,8 @@
 | 012 | Medium     | [Integer to Roman][012]                               |  :o:  |        |       |       |
 | 013 | Easy       | [Roman to Integer][013]                               |  :o:  |        |       |       |
 | 014 | Easy       | [Longest Common Prefix][014]                          |  :o:  |        |       |       |
+| 015 | Medium     | [3Sum][015]                                           |  :o:  |        |       |       |
+| 016 | Medium     | [3Sum Closest][016]                                   |  :o:  |        |       |       |
 | 017 | Medium     | [Letter Combinations of a Phone Number][017]          |  :o:  |  :o:   |  :o:  |       |
 | 019 | Medium     | [Remove Nth Node From End of List][019]               |  :o:  |  :o:   |  :o:  |       |
 | 020 | Easy       | [Valid Parentheses][020]                              |  :o:  |        |       |       |
@@ -76,11 +82,15 @@
 | 022 | Medium     | [Valid Parentheses][022]                              |  :o:  |        |       |       |
 | 023 | Hard       | [Merge k Sorted Lists][023]                           |  :o:  |  :o:   |  :o:  |       |
 | 024 | Medium     | [Swap Nodes in Pairs][024]                            |  :o:  |        |  :o:  |       |
+| 025 | Hard       | [Reverse Nodes in k-Group][025]                       |  :o:  |        |       |       |
+| 029 | Medium     | [Divide Two Integers][029]                            |  :o:  |        |       |       |
 | 031 | Medium     | [Next Permutation][031]                               |  :o:  |  :o:   |       |       |
 | 032 | Hard       | [Longest Valid Parentheses][031]                      |  :o:  |  :o:   |       |       |
 | 033 | Medium     | [Search in Rotated Sorted Array][033]                 |  :o:  |        |       |       |
 | 039 | Medium     | [Combination Sum][039]                                |  :o:  |        |       |       |
 | 042 | Hard       | [Trapping Rain Water][042]                            |  :o:  |  :o:   |  :o:  |       |
+| 044 | Hard       | [Wildcard Matching][044]                              |  :o:  |        |       |       |
+| 045 | Hard       | [Jump Game II][045]                                   |  :o:  |        |       |       |
 | 046 | Medium     | [Permutations][046]                                   |  :o:  |        |       |       |
 | 049 | Medium     | [Group Anagrams][049]                                 |  :o:  |  :o:   |  :o:  |       |
 | 053 | Easy       | [Maximum Subarray][053]                               |  :o:  |  :o:   |  :o:  |       |
@@ -98,12 +108,7 @@
 | 086 | Medium     | [Partition List][086]                                 |  :o:  |  :o:   |  :o:  |  :o:  |
 | 091 | Medium     | [Decode Ways][091]                                    |  :o:  |        |       |       |
 | 093 | Medium     | [Restore IP Addresses][093]                           |  :o:  |        |       |       |
-
-* 015 - 3Sum
-* 016 - 3Sum Closest
-* 025 - Reverse Nodes in k-Group
-* 029 - Divide Two Integers
-* 044 - Wildcard Matching
+| 098 | Medium     | [Validate Binary Search Tree][098]                    |  :o:  |        |       |       |
 
 ### Archive#01: Problem 101 ~ Problem 200
 
@@ -115,9 +120,13 @@
 | 123 | Hard       | [Best Time to Buy and Sell Stock III][123] |  :o:  |        |       |       |
 | 124 | Hard       | [Binary Tree Maximum Path Sum][124]        |  :o:  |        |       |       |
 | 125 | Easy       | [Valid Palindrome][125]                    |  :o:  |  :o:   |  :o:  |       |
+| 126 | Hard       | [Word Ladder II][126]                      |  :o:  |        |       |       |
+| 127 | Medium     | [Word Ladder][127]                         |  :o:  |        |       |       |
+| 130 | Medium     | [Surrounded Regions][130]                  |  :o:  |        |       |       |
 | 133 | Medium     | [Clone Graph][133]                         |  :o:  |        |       |       |
 | 136 | Easy       | [Single Number][136]                       |  :o:  |  :o:   |  :o:  |       |
 | 137 | Medium     | [Single Number II][137]                    |  :o:  |  :o:   |  :o:  |       |
+| 139 | Medium     | [Word Break][139]                          |  :o:  |        |       |       |
 | 141 | Easy       | [Linked List Cycle][141]                   |  :o:  |        |       |       |
 | 142 | Medium     | [Linked List Cycle II][142]                |  :o:  |        |       |       |
 | 143 | Medium     | [Reorder List][143]                        |  :o:  |        |       |       |
@@ -134,11 +143,6 @@
 | 189 | Easy       | [Rotate Array][189]                        |  :o:  |  :o:   |  :o:  |       |
 | 199 | Medium     | [Binary Tree Right Side View][199]         |  :o:  |        |  :o:  |       |
 | 200 | Medium     | [Number of Islands][200]                   |  :o:  |        |       |       |
-
-* 126 - Word Ladder II
-* 127 - Word Ladder
-* 130 - Surrounded Regions
-* 139 - Word Break
 
 ### Archive#02: Problem 201 ~ Problem 300
 
@@ -162,6 +166,7 @@
 | 241 | Medium     | [Different Ways to Add Parentheses][241]              |  :o:  |  :o:   |  :o:  |       |
 | 260 | Medium     | [Single Number III][260]                              |  :o:  |  :o:   |  :o:  |       |
 | 273 | Hard       | [Integer to English Words][273]                       |  :o:  |        |       |       |
+| 278 | Easy       | [First Bad Version][278]                              |  :o:  |        |       |       |
 | 279 | Medium     | [Perfect Squares][279]                                |  :o:  |        |       |       |
 | 283 | Easy       | [Move Zeroes][283]                                    |  :o:  |  :o:   |  :o:  |       |
 | 289 | Medium     | [Game of Life][289]                                   |  :o:  |        |       |       |
@@ -179,7 +184,9 @@
 | 327 | Hard       | [Count of Range Sum][327]                            |  :o:  |        |       |       |
 | 355 | Medium     | [Design Twitter][355]                                |  :o:  |        |       |       |
 | 365 | Medium     | [Water and Jug Problem][365]                         |  :o:  |  :o:   |       |       |
+| 383 | Easy       | [Ransom Note][383]                                   |  :o:  |        |       |       |
 | 385 | Medium     | [Mini Parser][385]                                   |  :o:  |  :o:   |  :o:  |       |
+| 387 | Easy       | [First Unique Character in a String][387]            |  :o:  |        |       |       |
 | 394 | Medium     | [Decode String][394]                                 |  :o:  |  :o:   |  :o:  |       |
 
 ### Archive#04: Problem 401 ~ Problem 500
@@ -193,6 +200,7 @@
 | 464 | Medium     | [Can I Win][464]               |  :o:  |        |       |       |
 | 466 | Hard       | [Count The Repetitions][466]   |  :o:  |        |       |       |
 | 468 | Medium     | [Validate IP Address][468]     |  :o:  |        |       |       |
+| 476 | Easy       | [Number Complement][476]       |  :o:  |        |       |       |
 | 493 | Hard       | [Reverse Pairs][493]           |  :o:  |        |       |       |
 | 494 | Medium     | [Target Sum][494]              |  :o:  |        |       |       |
 
@@ -205,6 +213,7 @@
 | 542 | Medium     | [01 Matrix][542]               |  :o:  |        |       |       |
 | 543 | Easy       | [Diameter of Binary Tree][543] |  :o:  |  :o:   |       |       |
 | 560 | Medium     | [Subarray Sum Equals K][560]   |  :o:  |        |       |       |
+| 572 | Easy       | [Subtree of Another Tree][572] |  :o:  |        |       |       |
 
 ### Archive#06: Problem 601 ~ Problem 700
 
@@ -222,6 +231,7 @@
 | 735 | Medium     | [Asteroid Collision][735]                                   |  :o:  |        |       |       |
 | 739 | Medium     | [Daily Temperatures][739]                                   |  :o:  |        |       |       |
 | 752 | Medium     | [Open the Lock][752]                                        |  :o:  |        |       |       |
+| 771 | Easy       | [Jewels and Stones][771]                                    |  :o:  |        |       |       |
 
 ### Archive#08: Problem 801 ~ Problem 900
 
@@ -236,16 +246,20 @@
 
 ### Archive#09: Problem 901 ~ Problem 1000
 
-| ID  | Difficulty | Problem                                       |  cpp  | python | ruby  | java  |
-| --- | ---------- | --------------------------------------------- | :---: | :----: | :---: | :---: |
-| 912 | Medium     | [Sort an Array][912]                          |  :o:  |  :o:   |  :o:  |  :o:  |
-| 945 | Medium     | [Minimum Increment to Make Array Unique][945] |  :o:  |        |       |       |
+| ID   | Difficulty | Problem                                       |  cpp  | python | ruby  | java  |
+| ---- | ---------- | --------------------------------------------- | :---: | :----: | :---: | :---: |
+| 912  | Medium     | [Sort an Array][912]                          |  :o:  |  :o:   |  :o:  |  :o:  |
+| 945  | Medium     | [Minimum Increment to Make Array Unique][945] |  :o:  |        |       |       |
+| 983  | Medium     | [Minimum Cost For Tickets][983]               |  :o:  |        |       |       |
+| 993  | Easy       | [Cousins in Binary Tree][993]                 |  :o:  |        |       |       |
+| 1000 |            |                                               |       |        |       |       |
 
 ### Archive#10: Problem 1001 ~ Problem 1100
 
 | ID   | Difficulty | Problem                                                      |  cpp  | python | ruby  | java  |
 | ---- | ---------- | ------------------------------------------------------------ | :---: | :----: | :---: | :---: |
 | 1008 | Medium     | [Construct Binary Search Tree from Preorder Traversal][1008] |  :o:  |        |       |       |
+| 1009 | Easy       | [Complement of Base 10 Integer][1009]                        |  :o:  |        |       |       |
 | 1013 | Easy       | [Partition Array Into Three Parts With Equal Sum][1013]      |  :o:  |  :o:   |       |       |
 | 1046 | Easy       | [Last Stone Weight][1046]                                    |  :o:  |        |       |       |
 | 1049 | Medium     | [Last Stone Weight II][1049]                                 |  :o:  |        |       |       |
@@ -267,11 +281,29 @@
 | ---- | ---------- | -------------------------------------- | :---: | :----: | :---: | :---: |
 | 1248 | Medium     | [Count Number of Nice Subarrays][1248] |  :o:  |        |       |       |
 
-### Locked LeetCode Problems
 
-* 288 - Unique Word Abbreviation
-* 308 - Range Sum Query 2D - Mutable
-* 444 - Sequence Reconstruction
+### Archive#14: Problem 1401 ~ Problem 1500
+
+| ID   | Difficulty | Problem                                                                                 |  cpp  | python | ruby  | java  |
+| ---- | ---------- | --------------------------------------------------------------------------------------- | :---: | :----: | :---: | :---: |
+| 1426 | Easy       | [Counting Elements][1426]                                                               |  :o:  |  :o:   |  :o:  |       |
+| 1427 | Easy       | [Perform String Shifts][1427]                                                           |  :o:  |  :o:   |  :o:  |       |
+| 1428 | Medium     | [Leftmost Column with at Least a One][1428]                                             |  :o:  |        |       |       |
+| 1429 | Medium     | [First Unique Number][1429]                                                             |  :o:  |        |       |       |
+| 1430 | Medium     | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree][1430] |  :o:  |        |       |       |
+
+### Locked LeetCode Problems (8)
+
+* Solved
+  * 1426 - Counting Elements
+  * 1427 - Perform String Shifts
+  * 1428 - Leftmost Column with at Least a One
+  * 1429 - First Unique Number
+  * 1430 - Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree
+* Finded but without permission
+  * 288 - Unique Word Abbreviation
+  * 308 - Range Sum Query 2D - Mutable
+  * 444 - Sequence Reconstruction
 
 ### Archive#CCI
 
@@ -297,63 +329,63 @@
 
 #### Programming Fundamentals // 编程基础
 
-* ![Array](https://img.shields.io/badge/数组-Array-007ec6.svg) [001][001], [004][004], [011][011], [031][031], [033][033], [039][039], [042][042], [053][053], [055][055], [056][056], [064][064], [074][074], [081][081], [121][121], [122][122], [123][123], [152][152], [169][169], [189][189], [238][238], [283][283], [289][289], [560][560], [695][695], [714][714], [945][945], [1013][1013], [1160][1160], [cci0107][cci0107]
-* ![String](https://img.shields.io/badge/字符串-String-007ec6.svg) [003][003], [005][005], [006][006], [008][008], [010][010], [012][012], [013][013], [014][014], [017][017], [020][020], [022][022], [032][032], [049][049], [065][065], [068][068], [072][072], [091][091], [093][093], [125][125], [151][151], [165][165], [227][227], [273][273], [385][385], [415][415], [468][468], [541][541], [678][678], [1071][1071], [cci0106][cci0106]
-* ![Bit_Manipulation](https://img.shields.io/badge/位运算-Bit_Manipulation-007ec6.svg) [136][136], [137][137], [169][169], [201][201], [231][231], [260][260], [318][318]
+* ![Array](materials/数组-Array-007ec6.svg) [001][001], [004][004], [011][011], [015][015], [016][016], [031][031], [033][033], [039][039], [042][042], [045][045], [053][053], [055][055], [056][056], [064][064], [074][074], [081][081], [121][121], [122][122], [123][123], [126][126], [152][152], [169][169], [189][189], [238][238], [283][283], [289][289], [560][560], [695][695], [714][714], [945][945], [1013][1013], [1160][1160], [1426][1426], [1427][1427], [1428][1428], [cci0107][cci0107]
+* ![String](materials/字符串-String-007ec6.svg) [003][003], [005][005], [006][006], [008][008], [010][010], [012][012], [013][013], [014][014], [017][017], [020][020], [022][022], [032][032], [044][044], [049][049], [065][065], [068][068], [072][072], [091][091], [093][093], [125][125], [126][126], [151][151], [165][165], [227][227], [273][273], [383][383], [385][385], [387][387], [415][415], [468][468], [541][541], [678][678], [1071][1071], [cci0106][cci0106]
+* ![Tree](materials/树-Tree-007ec6.svg) [098][098], [104][104], [124][124], [199][199], [226][226], [235][235], [543][543], [572][572], [993][993], [1008][1008], [1430][1430]
+* ![Bit_Manipulation](materials/位运算-Bit_Manipulation-007ec6.svg) [136][136], [137][137], [169][169], [201][201], [231][231], [260][260], [318][318], [476][476]
 
 #### Algorithm // 算法
 
-* ![Backtracking](https://img.shields.io/badge/回溯法-Backtracking-007ec6.svg) [010][010], [017][017], [022][022], [039][039], [046][046], [093][093], [211][211], [306][306]
-* ![Binary_Search](https://img.shields.io/badge/二分查找-Binary_Search-007ec6.svg) [004][004], [033][033], [074][074], [081][081], [300][300], [315][315], [327][327], [493][493], [887][887], [1095][1095], [1111][1111]
-* ![Breadth--first_Search](https://img.shields.io/badge/广度优先搜索-Breadth--first_Search-007ec6.svg) [133][133], [199][199], [200][200], [279][279], [542][542], [752][752], [1162][1162]
-* ![Depth--first_Search](https://img.shields.io/badge/深度优先搜索-Depth--first_Search-007ec6.svg) [104][104], [124][124], [133][133], [199][199], [200][200], [394][394], [494][494], [542][542], [695][695]
-* ![Divide_and_Conquer](https://img.shields.io/badge/分治法-Divide_and_Conquer-007ec6.svg) [004][004], [023][023], [053][053], [169][169], [218][218], [241][241], [315][315], [327][327], [493][493], [cof40][cof40]
-* ![Dynamic_Programming](https://img.shields.io/badge/动态规划-Dynamic_Programming-007ec6.svg) [005][005], [010][010], [032][032], [053][053], [064][064], [072][072], [091][091], [121][121], [123][123], [152][152], [188][188], [221][221], [279][279], [300][300], [309][309], [464][464], [466][466], [494][494], [714][714], [887][887], [1049][1049], [1143][1143], [cci0811][cci0811], [cci1716][cci1716]
-* ![Greedy](https://img.shields.io/badge/贪心-Greedy-007ec6.svg) [055][055], [122][122], [714][714], [1046][1046], [1111][1111]
-* ![Line_Sweep](https://img.shields.io/badge/扫描线-Line_Sweep-007ec6.svg) [218][218]
-* ![Two_Pointers](https://img.shields.io/badge/双指针法-Two_Pointers-007ec6.svg) [003][003], [011][011], [019][019], [042][042], [061][061], [086][086], [125][125], [142][142], [283][283], [844][844], [1248][1248]
-* ![Sliding_Window](https://img.shields.io/badge/滑窗法-Sliding_Window-007ec6.svg) [003][003]
-* ![Sort](https://img.shields.io/badge/排序-Sort-007ec6.svg) [056][056], [220][220], [315][315], [327][327], [493][493]
+* ![Backtracking](materials/回溯法-Backtracking-007ec6.svg) [010][010], [017][017], [022][022], [039][039], [044][044], [046][046], [093][093], [126][126], [211][211], [306][306]
+* ![Binary_Search](materials/二分查找-Binary_Search-007ec6.svg) [004][004], [029][029], [033][033], [074][074], [081][081], [278][278], [300][300], [315][315], [327][327], [493][493], [887][887], [1095][1095], [1111][1111]
+* ![Breadth--first_Search](materials/广度优先搜索-Breadth--first_Search-007ec6.svg) [126][126], [127][127], [130][130], [133][133], [199][199], [200][200], [279][279], [542][542], [752][752], [993][993], [1162][1162]
+* ![Depth--first_Search](materials/深度优先搜索-Depth--first_Search-007ec6.svg) [098][098], [104][104], [124][124], [130][130], [133][133], [199][199], [200][200], [394][394], [494][494], [542][542], [695][695]
+* ![Divide_and_Conquer](materials/分治法-Divide_and_Conquer-007ec6.svg) [004][004], [023][023], [053][053], [169][169], [218][218], [241][241], [315][315], [327][327], [493][493], [cof40][cof40]
+* ![Dynamic_Programming](materials/动态规划-Dynamic_Programming-007ec6.svg) [005][005], [010][010], [032][032], [044][044], [053][053], [064][064], [072][072], [091][091], [121][121], [123][123], [139][139], [152][152], [188][188], [221][221], [279][279], [300][300], [309][309], [464][464], [466][466], [494][494], [714][714], [887][887], [983][983], [1049][1049], [1143][1143], [cci0811][cci0811], [cci1716][cci1716]
+* ![Greedy](materials/贪心-Greedy-007ec6.svg) [044][044], [045][045], [055][055], [122][122], [714][714], [1046][1046], [1111][1111]
+* ![Line_Sweep](materials/扫描线-Line_Sweep-007ec6.svg) [218][218]
+* ![Two_Pointers](materials/双指针法-Two_Pointers-007ec6.svg) [003][003], [011][011], [015][015], [016][016], [019][019], [042][042], [061][061], [086][086], [125][125], [142][142], [283][283], [844][844], [1248][1248]
+* ![Sliding_Window](materials/滑窗法-Sliding_Window-007ec6.svg) [003][003]
+* ![Sort](materials/排序-Sort-007ec6.svg) [056][056], [220][220], [315][315], [327][327], [493][493]
 
 #### Data Structure // 数据结构
 
-* ![Binary_Indexed_Tree](https://img.shields.io/badge/树状数组-Binary_Indexed_Tree-007ec6.svg) [218][218], [307][307], [315][315], [327][327], [493][493]
-* ![Graph](https://img.shields.io/badge/图-Graph-007ec6.svg) [133][133], [1162][1162]
-* ![Hash_Table](https://img.shields.io/badge/哈希表-Hash_Table-007ec6.svg) [001][001], [003][003], [049][049], [136][136], [149][149], [166][166], [202][202], [204][204], [355][355], [409][409], [525][525], [560][560], [739][739], [1160][1160]
-* ![Heap](https://img.shields.io/badge/堆-Heap-007ec6.svg) [023][023], [218][218], [355][355], [1046][1046], [cof40][cof40]
-* ![Linked_List](https://img.shields.io/badge/链表-Linked_List-007ec6.svg) [002][002], [019][019], [021][021], [023][023], [024][024], [061][061], [082][082], [083][083], [086][086], [141][141], [142][142], [143][143], [445][445], [876][876]
-* ![Ordered_Map](https://img.shields.io/badge/保序映射-Ordered_Map-007ec6.svg) [220][220]
-* ![Queue](https://img.shields.io/badge/队列-Queue-007ec6.svg) [622][622]
-* ![Segment_Tree](https://img.shields.io/badge/线段树-Segment_Tree-007ec6.svg) [218][218], [307][307], [315][315], [327][327], [493][493]
-* ![Stack](https://img.shields.io/badge/堆栈-Stack-007ec6.svg) [020][020], [042][042], [150][150], [155][155], [224][224], [225][225], [385][385], [394][394], [735][735], [739][739], [844][844]
-* ![Tire](https://img.shields.io/badge/Tire树-Tire-007ec6.svg) [208][208], [211][211]
-* ![Tree](https://img.shields.io/badge/树-Tree-007ec6.svg) [104][104], [124][124], [199][199], [226][226], [235][235], [543][543], [1008][1008]
-* ![Union_Find](https://img.shields.io/badge/并查集-Union_Find-007ec6.svg) [200][200]
+* ![Binary_Indexed_Tree](materials/树状数组-Binary_Indexed_Tree-007ec6.svg) [218][218], [307][307], [315][315], [327][327], [493][493]
+* ![Graph](materials/图-Graph-007ec6.svg) [133][133], [1162][1162]
+* ![Hash_Table](materials/哈希表-Hash_Table-007ec6.svg) [001][001], [003][003], [049][049], [136][136], [149][149], [166][166], [202][202], [204][204], [355][355], [387][387], [409][409], [525][525], [560][560], [739][739], [771][771], [1160][1160], [1429][1429]
+* ![Heap](materials/堆-Heap-007ec6.svg) [023][023], [218][218], [355][355], [1046][1046], [cof40][cof40]
+* ![Linked_List](materials/链表-Linked_List-007ec6.svg) [002][002], [019][019], [021][021], [023][023], [024][024], [025][025], [061][061], [082][082], [083][083], [086][086], [141][141], [142][142], [143][143], [445][445], [876][876]
+* ![Ordered_Map](materials/保序映射-Ordered_Map-007ec6.svg) [220][220]
+* ![Queue](materials/队列-Queue-007ec6.svg) [622][622]
+* ![Segment_Tree](materials/线段树-Segment_Tree-007ec6.svg) [218][218], [307][307], [315][315], [327][327], [493][493]
+* ![Stack](materials/堆栈-Stack-007ec6.svg) [020][020], [042][042], [150][150], [155][155], [224][224], [225][225], [385][385], [394][394], [735][735], [739][739], [844][844]
+* ![Tire](materials/Tire树-Tire-007ec6.svg) [208][208], [211][211]
+* ![Union_Find](materials/并查集-Union_Find-007ec6.svg) [130][130], [200][200]
 
 #### Math, Arithmetic, Game Theory // 数学相关
 
-* ![Math](https://img.shields.io/badge/数学-Math-007ec6.svg) [002][002], [007][007], [008][008], [009][009], [012][012], [013][013], [065][065], [149][149], [166][166], [202][202], [204][204], [224][224], [231][231], [273][273], [279][279], [365][365], [836][836], [887][887], [892][892], [cci1603][cci1603]
-* ![Geometry](https://img.shields.io/badge/几何-Geometry-007ec6.svg) [892][892], [cci1603][cci1603]
-* ![Minimax](https://img.shields.io/badge/极小极大算法-Minimax-007ec6.svg) [464][464]
+* ![Math](materials/数学-Math-007ec6.svg) [002][002], [007][007], [008][008], [009][009], [012][012], [013][013], [029][029], [065][065], [149][149], [166][166], [202][202], [204][204], [224][224], [231][231], [273][273], [279][279], [365][365], [836][836], [887][887], [892][892], [1009][1009], [1427][1427], [cci1603][cci1603]
+* ![Geometry](materials/几何-Geometry-007ec6.svg) [892][892], [cci1603][cci1603]
+* ![Minimax](materials/极小极大算法-Minimax-007ec6.svg) [464][464]
 
 #### High-level Programming Techniques // 编程技巧
 
-* ![Design](https://img.shields.io/badge/设计-Design-007ec6.svg) [146][146], [155][155], [208][208], [211][211], [225][225], [355][355], [622][622]
+* ![Design](materials/设计-Design-007ec6.svg) [146][146], [155][155], [208][208], [211][211], [225][225], [355][355], [622][622], [1429][1429]
 
 #### Un-taged (by LeetCode)
 
 Several questions were not attaching any tags by the LeetCode. So I mark them with my tags (green colored) for looking them over. It may be a thinking way, a concept, a programming technique, or a data structure. // 部分题目并没有给出官方的标签，所以我自作主张给了一份绿色标签，包括思维方式、概念、编程技巧或特殊数据结构。
 
-* ![Structured_Approach](https://img.shields.io/badge/构造法-Structured_Approach-009688.svg) [420][420], [820][820]
-* ![Simulation_Method](https://img.shields.io/badge/模拟法-Simulation_Method-009688.svg) [cof62][cof62]
-* ![Searching_Method](https://img.shields.io/badge/搜索法-Searching_Method-009688.svg) [cof13][cof13]
-* ![Bit_Manipulation2](https://img.shields.io/badge/位运算-Bit_Manipulation-009688.svg) [cof56a][cof56a]
-* ![Tire2](https://img.shields.io/badge/Tire树-Tire-009688.svg) [820][820]
-* ![Josephus](https://img.shields.io/badge/约瑟夫环-Josephus-009688.svg) [cof62][cof62]
-* ![QuickSort](https://img.shields.io/badge/快速排序-QuickSort-009688.svg) [912][912]
-* ![MergeSort](https://img.shields.io/badge/归并排序-MergeSort-009688.svg) [912][912], [cof51][cof51]
-* ![ShellSort](https://img.shields.io/badge/希尔排序-ShellSort-009688.svg) [912][912]
-* ![HeapSort](https://img.shields.io/badge/堆排序-HeapSort-009688.svg) [912][912]
+* ![Structured_Approach](materials/构造法-Structured_Approach-009688.svg) [420][420], [820][820]
+* ![Simulation_Method](materials/模拟法-Simulation_Method-009688.svg) [cof62][cof62]
+* ![Searching_Method](materials/搜索法-Searching_Method-009688.svg) [cof13][cof13]
+* ![Bit_Manipulation2](materials/位运算-Bit_Manipulation-009688.svg) [cof56a][cof56a]
+* ![Tire2](materials/Tire树-Tire-009688.svg) [820][820]
+* ![Josephus](materials/约瑟夫环-Josephus-009688.svg) [cof62][cof62]
+* ![QuickSort](materials/快速排序-QuickSort-009688.svg) [912][912]
+* ![MergeSort](materials/归并排序-MergeSort-009688.svg) [912][912], [cof51][cof51]
+* ![ShellSort](materials/希尔排序-ShellSort-009688.svg) [912][912]
+* ![HeapSort](materials/堆排序-HeapSort-009688.svg) [912][912]
 
 ## License
 
@@ -375,6 +407,8 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 [012]: /Archive%2300-001-100/012-Integer%20to%20Roman
 [013]: /Archive%2300-001-100/013-Roman%20to%20Integer
 [014]: /Archive%2300-001-100/014-Longest%20Common%20Prefix
+[015]: /Archive%2300-001-100/015-3Sum
+[016]: /Archive%2300-001-100/016-3Sum%20Closest
 [017]: /Archive%2300-001-100/017-Letter%20Combinations%20of%20a%20Phone%20Number
 [019]: /Archive%2300-001-100/019-Remove%20Nth%20Node%20From%20End%20of%20List
 [020]: /Archive%2300-001-100/020-Valid%20Parentheses
@@ -382,11 +416,15 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 [022]: /Archive%2300-001-100/022-Generate%20Parentheses
 [023]: /Archive%2300-001-100/023-Merge%20k%20Sorted%20Lists
 [024]: /Archive%2300-001-100/024-Swap%20Nodes%20in%20Pairs
+[025]: /Archive%2300-001-100/025-Reverse%20Nodes%20in%20k-Group
+[029]: /Archive%2300-001-100/029-Divide%20Two%20Integers
 [031]: /Archive%2300-001-100/031-Next%20Permutation
 [032]: /Archive%2300-001-100/032-Longest%20Valid%20Parentheses
 [033]: /Archive%2300-001-100/033-Search%20in%20Rotated%20Sorted%20Array
 [039]: /Archive%2300-001-100/039-Combination%20Sum
 [042]: /Archive%2300-001-100/042-Trapping%20Rain%20Water
+[044]: /Archive%2300-001-100/044-Wildcard%20Matching
+[045]: /Archive%2300-001-100/045-Jump%20Game%20II
 [046]: /Archive%2300-001-100/046-Permutations
 [049]: /Archive%2300-001-100/049-Group%20Anagrams
 [053]: /Archive%2300-001-100/053-Maximum%20Subarray
@@ -404,6 +442,7 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 [086]: /Archive%2300-001-100/086-Partition%20List
 [091]: /Archive%2300-001-100/091-Decode%20Ways
 [093]: /Archive%2300-001-100/093-Restore%20IP%20Addresses
+[098]: /Archive%2300-001-100/098-Validate%20Binary%20Search%20Tree
 
 <!-- ARCHIVE #01 -->
 [104]: /Archive%2301-101-200/104-Maximum%20Depth%20of%20Binary%20Tree
@@ -412,9 +451,13 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 [123]: /Archive%2301-101-200/123-Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III
 [124]: /Archive%2301-101-200/124-Binary%20Tree%20Maximum%20Path%20Sum
 [125]: /Archive%2301-101-200/125-Valid%20Palindrome
+[126]: /Archive%2301-101-200/126-Word%20Ladder%20II
+[127]: /Archive%2301-101-200/127-Word%20Ladder
+[130]: /Archive%2301-101-200/130-Surrounded%20Regions
 [133]: /Archive%2301-101-200/133-Clone%20Graph
 [136]: /Archive%2301-101-200/136-Single%20Number
 [137]: /Archive%2301-101-200/137-Single%20Number%20II
+[139]: /Archive%2301-101-200/139-Word%20Break
 [141]: /Archive%2301-101-200/141-Linked%20List%20Cycle
 [142]: /Archive%2301-101-200/142-Linked%20List%20Cycle%20II
 [143]: /Archive%2301-101-200/143-Reorder%20List
@@ -451,6 +494,7 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 [241]: /Archive%2302-201-300/241-Different%20Ways%20to%20Add%20Parentheses
 [260]: /Archive%2302-201-300/260-Single%20Number%20III
 [273]: /Archive%2302-201-300/273-Integer%20to%20English%20Words
+[278]: /Archive%2302-201-300/278-First%20Bad%20Version
 [279]: /Archive%2302-201-300/279-Perfect%20Squares
 [283]: /Archive%2302-201-300/283-Move%20Zeroes
 [289]: /Archive%2302-201-300/289-Game%20of%20Life
@@ -465,7 +509,9 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 [327]: /Archive%2303-301-400/327-Count%20of%20Range%20Sum
 [355]: /Archive%2303-301-400/355-Design%20Twitter
 [365]: /Archive%2303-301-400/365-Water%20and%20Jug%20Problem
+[383]: /Archive%2303-301-400/383-Ransom%20Note
 [385]: /Archive%2303-301-400/385-Mini%20Parser
+[387]: /Archive%2303-301-400/387-First%20Unique%20Character%20in%20a%20String
 [394]: /Archive%2303-301-400/394-Decode%20String
 
 <!-- ARCHIVE #04 -->
@@ -476,6 +522,7 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 [464]: /Archive%2304-401-500/464-Can%20I%20Win
 [466]: /Archive%2304-401-500/466-Count%20The%20Repetitions
 [468]: /Archive%2304-401-500/468-Validate%20IP%20Address
+[476]: /Archive%2304-401-500/476-Number%20Complement
 [493]: /Archive%2304-401-500/493-Reverse%20Pairs
 [494]: /Archive%2304-401-500/494-Target%20Sum
 
@@ -485,6 +532,7 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 [542]: /Archive%2305-501-600/542-01%20Matrix
 [543]: /Archive%2305-501-600/543-Diameter%20of%20Binary%20Tree
 [560]: /Archive%2305-501-600/560-Subarray%20Sum%20Equals%20K
+[572]: /Archive%2305-501-600/572-Subtree%20of%20Another%20Tree
 
 <!-- ARCHIVE #06 -->
 [622]: /Archive%2306-601-700/622-Design%20Circular%20Queue
@@ -496,6 +544,7 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 [735]: /Archive%2307-701-800/735-Asteroid%20Collision
 [739]: /Archive%2307-701-800/739-Daily%20Temperatures
 [752]: /Archive%2307-701-800/752-Open%20the%20Lock
+[771]: /Archive%2307-701-800/771-Jewels%20and%20Stones
 
 <!-- ARCHIVE #08 -->
 [820]: /Archive%2308-801-900/820-Short%20Encoding%20of%20Words
@@ -508,9 +557,12 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 <!-- ARCHIVE #09 -->
 [912]: /Archive%2309-901-1000/912-Sort%20an%20Array
 [945]: /Archive%2309-901-1000/945-Minimum%20Increment%20to%20Make%20Array%20Unique
+[983]: /Archive%2309-901-1000/983-Minimum%20Cost%20For%20Tickets
+[993]: /Archive%2309-901-1000/993-Cousins%20in%20Binary%20Tree
 
 <!-- ARCHIVE #10 -->
 [1008]: /Archive%2310-1001-1100/1008-Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal
+[1009]: /Archive%2310-1001-1100/1009-Complement%20of%20Base%2010%20Integer
 [1013]: /Archive%2310-1001-1100/1013-Partition%20Array%20Into%20Three%20Parts%20With%20Equal%20Sum
 [1046]: /Archive%2310-1001-1100/1046-Last%20Stone%20Weight
 [1049]: /Archive%2310-1001-1100/1049-Last%20Stone%20Weight%20II
@@ -525,6 +577,13 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 
 <!-- ARCHIVE #12 -->
 [1248]: /Archive%2312-1201-1300/1248-Count%20Number%20of%20Nice%20Subarrays
+
+<!-- ARCHIVE #14 -->
+[1426]: /Archive%2314-1401-1500/1426-Counting%20Elements
+[1427]: /Archive%2314-1401-1500/1427-Perform%20String%20Shifts
+[1428]: /Archive%2314-1401-1500/1428-Leftmost%20Column%20with%20at%20Least%20a%20One
+[1429]: /Archive%2314-1401-1500/1429-First%20Unique%20Number
+[1430]: /Archive%2314-1401-1500/1430-Check%20If%20a%20String%20Is%20a%20Valid%20Sequence%20from%20Root%20to%20Leaves%20Path%20in%20a%20Binary%20Tree
 
 <!-- ARCHIVE #CCI -->
 [cci0106]: /Archive%23CCI/0106-字符串压缩
